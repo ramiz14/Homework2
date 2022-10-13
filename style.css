@@ -39,28 +39,24 @@ padding-right: 8px;
     color: black;
 }
 #third{
-    text-align: center ;   
-    padding: 140px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 50%; 
+    margin: auto;
     
 }
 #third h2{
+    padding-top: 9rem;
     font-size: 2rem;
-    padding-right: 40px;
-    margin-top: 4em;
-    margin-bottom: 10px
-    
-    
 }
 #third p{
     font-size: 1.25rem;
     font-weight: 300;
+    margin-bottom: 20px;
 }
 
 
 #third ul{
     display: list-item;
+    margin-left: 30px;
 }
 
 
