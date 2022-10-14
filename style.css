@@ -1,21 +1,40 @@
 *{
     margin: 0; 
     padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
     box-sizing: border-box;
 }
 #first{
+overflow: auto;
+width: 100%;
+position: fixed;
 background-color:#212529 ;
-padding: 18px 18px;
-text-align: right;
+padding: 18px 0px;
 font-size: 18px;
-padding-right: 17.5% ;
+}
+.right{
+    float: right;
+    margin-right: 20rem;
+}
+.left{
+    float: left;
+    margin-left: 20rem;
+}
+.left a{
+    color: #ffffff;
+}
+.right a{
+    color: gray;
 }
 #first a{
-color: gray;
-padding-right: 8px;
+align-items: center;
+padding-right: 9px;
 }
 #second{
     background-color: #1573FD;
@@ -59,20 +78,39 @@ padding-right: 8px;
     margin-left: 30px;
 }
 #fourth{
-    width: 50%;
-    margin: auto;
-    margin-top: 15%;
+    color: #212529;
+    margin-top: 10%;
     padding: 10%;
+    background-color: #F8F9FA;
+    padding: 9rem 9rem;
+    
 }
 #fourth h2{
+    width: 60%;
+    margin: auto;
     font-size: 30px;
     margin-bottom: 20px;
     font-weight: bold;
 
 }
 #fourth p{
+    width: 60%;
+    margin: auto;
     font-size: 15px;
-    font-weight: bold;
-    
+    font-weight: 100;
+}
+#fifth{
+    color: #212529;
+    margin-top: 10%;
+    padding: 10%;
+    padding: 10rem 9rem;
+    width: 65%;
+    margin: auto;
+}
+#sixth{
+    background-color: #212529;
+    padding: 48px 0;
+    color: #F8F9FA;
+    text-align: center
 }
 
